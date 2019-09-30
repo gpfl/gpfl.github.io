@@ -621,11 +621,10 @@ input, select, textarea {
 
 	.overlay .text {
 		position: absolute;
-        z-index: 999;
+        /*z-index: 999;*/
         margin: 0 auto;
         left: 0;
 		right: 0;
-		/*top: 60%;*/
 		padding: 5px 10px 0px 10px; 
 		color: white;
 		text-align: left;
@@ -2098,29 +2097,6 @@ input, select, textarea {
 				text-align: center;
 			}
 
-			/*
-			#footer .icons {
-				display: flex;
-				justify-content: center;
-			  }
-			  
-			  #footer .icons ul {
-				display: inline-block;
-			  
-				text-align: center;
-			  }
-
-		
-		#footer ul.icons {
-			width: 50%;
-			margin: auto;
-		}
-
-		#footer li.icons {
-			float: left;
-			padding: 40px 50px;
-		} */
-
 		@media screen and (max-width: 1000px) {
 
 			#footer {
@@ -2178,54 +2154,3 @@ input, select, textarea {
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
-
-/* Two */
-
-	#two {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
-	}
-
-/* Contact */
-
-	#contact {
-		overflow: hidden;
-		padding-bottom: 0;
-	}
-
-		#contact .box {
-			-moz-transition: -moz-transform 1s ease;
-			-webkit-transition: -webkit-transform 1s ease;
-			-ms-transition: -ms-transform 1s ease;
-			transition: transform 1s ease;
-			-moz-transform: translateY(0);
-			-webkit-transform: translateY(0);
-			-ms-transform: translateY(0);
-			transform: translateY(0);
-			position: relative;
-		}
-
-		#contact.inactive .box {
-			-moz-transform: translateY(100%);
-			-webkit-transform: translateY(100%);
-			-ms-transform: translateY(100%);
-			transform: translateY(100%);
-		}
-
-		@media screen and (max-width: 736px) {
-
-			#contact .box {
-				padding: 1.5em 1.5em 2em 1.5em;
-			}
-
-		}
-
-		@media screen and (max-width: 480px) {
-
-			#contact .box {
-				padding: 1em 1em 2em 1em;
-			}
-
-		}
